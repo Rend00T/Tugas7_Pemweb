@@ -58,6 +58,16 @@
         max-width: 100%;
       }
     }
+
+    /* Progress bar style */
+    .progress {
+      height: 6px;
+      background-color: #e9ecef;
+      border-radius: 4px;
+    }
+    .progress-bar {
+      border-radius: 4px;
+    }
   </style>
 </head>
 <body>
@@ -81,7 +91,7 @@
           <h6>Kekeruhan (Turbid)</h6>
           <div class="value">18 NTU</div>
           <!-- Progress bar -->
-          <div class="progress mt-2" style="height: 8px;">
+          <div class="progress mt-2">
             <div class="progress-bar bg-info" role="progressbar" style="width: 40%;"></div>
           </div>
         </div>
@@ -115,8 +125,8 @@
           <h6>Temperatur Udara (AmTemp)</h6>
           <div class="value">34 C</div>
           <!-- Progress bar -->
-          <div class="progress mt-2" style="height: 8px;">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 70%;"></div>
+          <div class="progress mt-2">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 30%;"></div>
           </div>
         </div>
       </div>
